@@ -1,0 +1,28 @@
+{
+  "name": "chitterr",
+  "version": "1.0.0",
+  "description": "A web application for team chat rooms",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theresatvan/Chitterr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theresatvan/Chitterr/issues"
+  },
+  "homepage": "https://github.com/theresatvan/Chitterr#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
