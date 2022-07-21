@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+    --light-color: #f5f5f5;
+    --dark-color: #085b75;
+    --med-color: #097ca0;
+    --bright-color: #44a8e1;
+    --grey-color: #bababa;
+    --green-color: #16732a;
+    --highlight-color: #c55da7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--light-color);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+/* LOGIN PAGE */
+
+.login-container {
+    background: var(--med-color);
+    border-radius: 25px;
+    color: var(--light-color);
+    margin: 80px auto;
+    max-width: 30rem;
+}
+
+.login-header {
+    font-size: 28px;
+    padding-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.login-main {
+    padding: 2rem 4rem;
+}
+
+.form-control input {
+    border: none;
+    border-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    margin-bottom: 1rem;
+    padding: 0.80rem;
+    width: 100%;
+}
+
+.flex {
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+.btn-login {
+    background: var(--dark-color);
+    border: none;
+    border-radius: 12px;
+    color: var(--light-color);
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0.80rem;
+    transition: background 0.2s ease-out;
+    width: 100%;
+}
+
+.btn-login:hover {
+    background: var(--highlight-color);
+}
